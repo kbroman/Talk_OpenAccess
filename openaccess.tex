@@ -1,0 +1,64 @@
+\documentclass[12pt]{beamer}
+\usepackage{amsmath,graphicx,xcolor}
+
+% get rid of junk
+\usetheme{default}
+\beamertemplatenavigationsymbolsempty
+\hypersetup{pdfpagemode=UseNone} % don't show bookmarks on initial view
+
+% font
+\usefonttheme{professionalfonts}
+\usefonttheme{serif}
+\usepackage{fontspec}
+\setmainfont{Helvetica Neue}
+
+% better colors
+\definecolor{offwhite}{RGB}{249,242,215}
+\definecolor{foreground}{RGB}{255,255,255}
+\definecolor{background}{RGB}{24,24,24}
+\definecolor{title}{RGB}{107,174,214}
+\definecolor{gray}{RGB}{128,128,128}
+\definecolor{subtitle}{RGB}{102,255,204}
+\definecolor{hilight}{RGB}{125,250,125}
+\definecolor{lolight}{RGB}{107,174,214}
+\setbeamercolor{titlelike}{fg=title}
+\setbeamercolor{normal text}{fg=foreground,bg=background}
+
+% page number
+\setbeamertemplate{footline}{%
+    \raisebox{5pt}{\makebox[\paperwidth]{\hfill\makebox[10pt]{\scriptsize\insertframenumber}}}}
+
+% title info
+\title{Open access publishing}
+\subtitle{\textcolor{subtitle}{A researcher's perspective}}
+\author{Karl Broman}
+\institute{\textcolor{gray}{Biostatistics \& Medical Informatics \\[2pt] University of Wisconsin--Madison}}
+\date{}
+
+
+\begin{document}
+
+% title slide
+{
+\setbeamertemplate{footline}{} % no page number here
+\frame{\titlepage}
+}
+
+
+
+\begin{frame}{Title here}
+\begin{itemize}
+\item {\textcolor{hilight}{Highlighted point}}
+\item {\textcolor{lolight}{Lowlighted point}}
+\item Regular point
+\item Point with a bit extra \\
+\textcolor{gray}{\footnotesize - Aside}
+\item One last point
+\end{itemize}
+\end{frame}
+
+
+\end{document}
+
+
+
