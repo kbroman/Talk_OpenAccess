@@ -1,9 +1,11 @@
 ### Talk on &ldquo;Open access publishing: A research&rsquo;s perspective&rdquo;
 
 These are slides (_in preparation_) for a talk that I will give for a symposium on open
-access publishing, organized by the 
+access publishing, organized by the
 [Ebling Library](http://ebling.library.wisc.edu),
-[UW&ndash;Madison](http://www.wisc.edu), on 24 Oct 2013.
+[UW&ndash;Madison](http://www.wisc.edu).
+The symposium will be on the morning of Thursday, 24 Oct 2013, at
+the [Wisconsin Institutes for Discovery](http://discovery.wisc.edu/discovery).
 
 The current pdf is [here](http://www.biostat.wisc.edu/~kbroman/presentations/openaccess.pdf).
 
