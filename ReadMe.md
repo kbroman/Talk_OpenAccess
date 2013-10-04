@@ -1,7 +1,6 @@
 ### Talk on &ldquo;Open access publishing: A research&rsquo;s perspective&rdquo;
 
-
-These are slides for a talk that I will give for a symposium on open
+These are slides (_in preparation_) for a talk that I will give for a symposium on open
 access publishing, organized by the 
 [Ebling Library](http://ebling.library.wisc.edu),
 [UW&ndash;Madison](http://www.wisc.edu), on 24 Oct 2013.
