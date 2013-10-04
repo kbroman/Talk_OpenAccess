@@ -3,7 +3,7 @@
 
 These are slides for a talk that I will give for a symposium on open
 access publishing, organized by the 
-[Ebling Library\(http://ebling.library.wisc.edu/),
+[Ebling Library](http://ebling.library.wisc.edu),
 [UW&ndash;Madison](http://www.wisc.edu), on 24 Oct 2013.
 
 The current pdf is [here](http://www.biostat.wisc.edu/~kbroman/presentations/openaccess.pdf).
