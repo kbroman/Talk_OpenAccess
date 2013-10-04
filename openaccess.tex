@@ -47,6 +47,11 @@
 \date{}
 
 
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\ig}{\includegraphics}
+\newcommand{\subt}[1]{{\footnotesize \color{subtitle} {#1}}}
+
 \begin{document}
 
 % title slide
@@ -58,73 +63,63 @@
 
 
 \begin{frame}[t]{Access in action}
-
-{ \footnotesize \color{subtitle}
-Interesting reference
-}
+\subt{Interesting reference}
 
 \bigskip
 \centerline{
-\includegraphics[height=0.75\textheight]{Images/img01.jpg}
+\ig[height=0.75\textheight]{Images/img01.jpg}
 }
 \end{frame}
 
 
 \begin{frame}[t]{Access in action}
-
-{ \footnotesize \color{subtitle}
-Google scholar
-}
+\subt{Google scholar}
 
 \bigskip
 \centerline{
-\includegraphics[height=0.75\textheight]{Images/img02.jpg}
+\ig[height=0.75\textheight]{Images/img02.jpg}
 }
 \end{frame}
 
 
 
 \begin{frame}[t]{Access in action}
-
-{ \footnotesize \color{subtitle}
-Journal site
-}
+\subt{Journal site}
 
 \bigskip
 \centerline{
-\includegraphics[height=0.75\textheight]{Images/img03.jpg}
+\ig[height=0.75\textheight]{Images/img03.jpg}
 }
 \end{frame}
 
 
 
 \begin{frame}[t]{Access in action}
-
-{ \footnotesize \color{subtitle}
-\only<1-3>{\tt [journal.com].ezproxy.library.wisc.edu}
-\only<4>{Oh, crap.}
+\subt{
+  \only<1-3>{\tt [journal.com].ezproxy.library.wisc.edu}
+  \only<4>{Oh, crap.}
 }
 
 \bigskip
 \begin{center}
-\includegraphics[width=0.7\textwidth, keepaspectratio]{Images/img04.jpg}
+\ig[width=0.7\textwidth, keepaspectratio]{Images/img04.jpg}
 
 \onslide<2-4>{
   \vspace*{-0.55\textheight}
   \hspace*{0.10\textwidth}
-  \includegraphics[width=0.7\textwidth, keepaspectratio]{Images/img05.jpg}
+  \ig[width=0.7\textwidth, keepaspectratio]{Images/img05.jpg}
 }
 
 \onslide<3-4>{
   \vspace*{-0.55\textheight}
   \hspace*{0.20\textwidth}
-  \includegraphics[width=0.7\textwidth, keepaspectratio]{Images/img06.jpg}
+  \ig[width=0.7\textwidth, keepaspectratio]{Images/img06.jpg}
 }
 
 \onslide<4>{
   \vspace*{-0.35\textheight}
   \hspace*{0.30\textwidth}
-  \includegraphics[width=0.7\textwidth]{Images/img03.jpg}
+  \ig[width=0.7\textwidth]{Images/img03.jpg}
 }
 
 \end{center}
@@ -136,31 +131,28 @@ Journal site
 
 
 \begin{frame}[t]{Access in action}
-
-{ \footnotesize \color{subtitle}
-Library catalog\dots
-}
+\subt{Library catalog\dots}
 
 \bigskip
 \begin{center}
-\includegraphics[width=0.7\textwidth]{Images/img07.jpg}
+\ig[width=0.7\textwidth]{Images/img07.jpg}
 
 \onslide<2-4>{
   \vspace*{-0.45\textheight}
   \hspace*{0.10\textwidth}
-  \includegraphics[width=0.7\textwidth]{Images/img08.jpg}
+  \ig[width=0.7\textwidth]{Images/img08.jpg}
 }
 
 \onslide<3-4>{
   \vspace*{-0.55\textheight}
   \hspace*{0.20\textwidth}
-  \includegraphics[width=0.7\textwidth]{Images/img09.jpg}
+  \ig[width=0.7\textwidth]{Images/img09.jpg}
 }
 
 \onslide<4>{
   \vspace*{-0.55\textheight}
   \hspace*{0.30\textwidth}
-  \includegraphics[width=0.7\textwidth]{Images/img10.png}
+  \ig[width=0.7\textwidth]{Images/img10.png}
 }
 \end{center}
 
@@ -169,43 +161,40 @@ Library catalog\dots
 
 
 \begin{frame}[t]{Access in action}
-
-{ \footnotesize \color{subtitle}
-Finally.
-}
+\subt{Finally.}
 
 \bigskip
 \centerline{
-\includegraphics[height=0.75\textheight]{Images/img11.jpg}
+\ig[height=0.75\textheight]{Images/img11.jpg}
 }
 \end{frame}
 
 
 
 \begin{frame}[t]{Access in action}
-
-{ \footnotesize \color{subtitle}
-There's also PubMed\dots
-}
+\subt{There's also PubMed\dots}
 
 \bigskip
 \begin{center}
-\includegraphics[width=0.7\textwidth]{Images/img12.png}
+\ig[width=0.7\textwidth]{Images/img12.png}
 
 \onslide<2-3>{
   \vspace*{-0.45\textheight}
   \hspace*{0.10\textwidth}
-  \includegraphics[width=0.7\textwidth]{Images/img13.png}
+  \ig[width=0.7\textwidth]{Images/img13.png}
 }
 
 \onslide<3>{
   \vspace*{-0.65\textheight}
   \hspace*{0.38\textwidth}
-  \includegraphics[height=0.85\textheight]{Images/img14.png}
+  \ig[height=0.85\textheight]{Images/img14.png}
 }
 \end{center}
 
 \end{frame}
+
+
+
 
 
 \end{document}
