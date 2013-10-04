@@ -26,6 +26,9 @@
 \setbeamercolor{titlelike}{fg=title}
 \setbeamercolor{normal text}{fg=foreground,bg=background}
 \setbeamercolor{item}{fg=foreground} % color of bullets
+\setbeamercolor{subitem}{fg=gray}
+\setbeamercolor{itemize/enumerate subbody}{fg=gray}
+\setbeamertemplate{itemize subitem}{{\textendash}}
 
 % page number
 \setbeamertemplate{footline}{%
@@ -51,11 +54,15 @@
 
 \begin{frame}{Title here}
 \begin{itemize}
-\item {\textcolor{hilight}{Highlighted point}}
-\item {\textcolor{lolight}{Lowlighted point}}
+\item {\color{hilight} Highlighted point}
+\item {\color{lolight} Lowlighted point}
 \item Regular point
-\item Point with a bit extra \\
-\textcolor{gray}{\footnotesize - Aside}
+\item Point with a bit extra
+
+\begin{itemize}
+\item Aside
+\end{itemize}
+
 \item One last point
 \end{itemize}
 \end{frame}
