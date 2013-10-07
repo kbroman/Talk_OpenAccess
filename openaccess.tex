@@ -13,6 +13,7 @@
 \usefonttheme{serif}
 \usepackage{fontspec}
 \setmainfont{Helvetica Neue}
+\setbeamerfont{note page}{family*=pplx,size=\footnotesize} % Palatino for notes
 
 % named colors
 \definecolor{offwhite}{RGB}{249,242,215}
@@ -43,6 +44,12 @@
     \raisebox{5pt}{\makebox[\paperwidth]{\hfill\makebox[20pt]{\color{gray}
           \scriptsize\insertframenumber}}}\hspace*{5pt}}
 
+% a few macros
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\ig}{\includegraphics}
+\newcommand{\subt}[1]{{\footnotesize \color{subtitle} {#1}}}
+
 % title info
 \title{Open access publishing}
 \subtitle{A researcher's perspective}
@@ -50,11 +57,6 @@
 \institute{\href{http://www.biostat.wisc.edu}{Biostatistics \& Medical Informatics} \\[2pt] \href{http://www.wisc.edu}{University of Wisconsin{\textendash}Madison}}
 \date{\href{http://www.biostat.wisc.edu/~kbroman}{\tt \scriptsize biostat.wisc.edu/{\textasciitilde}kbroman}}
 
-
-\newcommand{\bi}{\begin{itemize}}
-\newcommand{\ei}{\end{itemize}}
-\newcommand{\ig}{\includegraphics}
-\newcommand{\subt}[1]{{\footnotesize \color{subtitle} {#1}}}
 
 \begin{document}
 
@@ -79,12 +81,15 @@
 \ig[height=0.75\textheight]{Images/img01.jpg}
 }
 
-\note{}
+\note{I'll begin with an illustration of what I mean by
+  access. \\[12pt]
+  The other day I was reading a manuscript and saw a
+  manuscript of interest.}
 \end{frame}
 
 
 \begin{frame}{Access in action}
-\subt{Google scholar}
+\subt{Google Scholar}
 
 \bigskip
 \begin{center}
@@ -97,7 +102,9 @@
 }
 \end{center}
 
-\note{}
+\note{If I paste the article title into Google Scholar, I immediately
+  find the paper and can go directly to the journal. \\[12pt]
+  But they charge \$40 for a 7 page paper!}
 \end{frame}
 
 
@@ -123,7 +130,15 @@ genomes. {\color{white} Nat Genet} 37:209{\textendash}210 & {\color{vhilight} \f
 \end{tabular}
 }
 
-\note{}
+\note{I went back to some of my early papers, and found these
+  outrageous prices.\\[12pt]
+  \$18 for a 2-page paper? \\[12pt]
+  I understand that the publishing industry has a long history of
+  screwy pricing, but you'd have to be either \emph{desperate\/} or
+  \emph{stupid\/} to pay these prices. \\[12pt]
+  And for that 1999 Genetic Epidemiology article, published by Wiley,
+  you have to register in order to find out that it's \$35 for 24-access.
+}
 \end{frame}
 
 
