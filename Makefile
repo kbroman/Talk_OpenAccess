@@ -1,17 +1,17 @@
 openaccess.pdf: openaccess.tex
 	xelatex openaccess
 
-notes: openaccess_notes.pdf
+notes: openaccess_withnotes.pdf
 
 all: openaccess.pdf notes
 
-openaccess_notes.pdf: openaccess_notes.tex
-	xelatex openaccess_notes
-	pdfnup openaccess_notes.pdf --nup 1x2 --no-landscape --paper letterpaper --frame true --scale 0.9
-	mv openaccess_notes-nup.pdf openaccess_notes.pdf
+openaccess_withnotes.pdf: openaccess_withnotes.tex
+	xelatex openaccess_withnotes
+	pdfnup openaccess_withnotes.pdf --nup 1x2 --no-landscape --paper letterpaper --frame true --scale 0.9
+	mv openaccess_withnotes-nup.pdf openaccess_withnotes.pdf
 
-openaccess_notes.tex: openaccess.tex makeNotes.rb
-	makeNotes.rb openaccess.tex openaccess_notes.tex
+openaccess_withnotes.tex: openaccess.tex createVersionWithNotes.rb
+	createVersionWithNotes.rb openaccess.tex openaccess_withnotes.tex
 
 web: openaccess.pdf dropbox
 	scp openaccess.pdf broman-2:public_html/presentations/
