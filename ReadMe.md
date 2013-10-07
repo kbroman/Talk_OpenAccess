@@ -1,4 +1,4 @@
-### Talk on &ldquo;Open access publishing: A research&rsquo;s perspective&rdquo;
+### Talk on &ldquo;Open access publishing: A researcher&rsquo;s perspective&rdquo;
 
 These are slides (_in preparation_) for a talk that I will give for a symposium on open
 access publishing, organized by the
