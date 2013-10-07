@@ -9,6 +9,8 @@ the [Wisconsin Institutes for Discovery](http://discovery.wisc.edu/discovery).
 
 The current pdf is [here](http://www.biostat.wisc.edu/~kbroman/presentations/openaccess.pdf).
 
+And [here's a version with notes on what I intend to say](http://www.biostat.wisc.edu/~kbroman/presentations/openaccess_withnotes.pdf).
+
 <hr/>
 
 To the extent possible under law,
