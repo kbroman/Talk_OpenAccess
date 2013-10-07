@@ -3,6 +3,8 @@ openaccess.pdf: openaccess.tex
 
 handout: openaccess_handout.pdf
 
+all: openaccess.pdf handout
+
 openaccess_handout.pdf: openaccess_handout.tex
 	xelatex openaccess_handout
 	pdfnup openaccess_handout.pdf --nup 1x2 --no-landscape --paper letterpaper --frame true --scale 0.8
