@@ -13,10 +13,10 @@ openaccess_withnotes.pdf: openaccess_withnotes.tex
 openaccess_withnotes.tex: openaccess.tex createVersionWithNotes.rb
 	createVersionWithNotes.rb openaccess.tex openaccess_withnotes.tex
 
-web: openaccess.pdf dropbox
-	scp openaccess.pdf broman-2:public_html/presentations/
+web: openaccess.pdf dropbox openaccess_withnotes.pdf
+	scp openaccess*.pdf broman-2:public_html/presentations/
 
 dropbox: ~/Dropbox/Talks/openaccess.pdf
 
-~/Dropbox/Talks/openaccess.pdf: openaccess.pdf
-	cp openaccess.pdf ~/Dropbox/Talks/
+~/Dropbox/Talks/openaccess.pdf: openaccess.pdf openaccess_withnotes.pdf
+	cp openaccess*.pdf ~/Dropbox/Talks/
