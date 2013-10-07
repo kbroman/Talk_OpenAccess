@@ -2,7 +2,7 @@
 # \setbeameroption{hide notes} -> \setbeameroption{show notes}
 
 ifilename = ARGV.length > 0 ? ARGV[0] : "openaccess.tex"
-ofilename = ARGV.length > 1 ? ARGV[1] : ifilename.sub(".tex", "_handout.tex")
+ofilename = ARGV.length > 1 ? ARGV[1] : ifilename.sub(".tex", "_notes.tex")
 
 ifile = File.open(ifilename)
 ofile = File.open(ofilename, "w")
