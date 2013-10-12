@@ -9,11 +9,13 @@
 \hypersetup{pdfpagemode=UseNone} % don't show bookmarks on initial view
 
 % font
-\usefonttheme{professionalfonts}
-\usefonttheme{serif}
 \usepackage{fontspec}
-\setmainfont{Helvetica Neue}
+\setsansfont{TeX Gyre Heros}
 \setbeamerfont{note page}{family*=pplx,size=\footnotesize} % Palatino for notes
+% "TeX Gyre Heros can be used as a replacement for Helvetica"
+% In Unix, unzip the following into ~/.fonts
+% In Mac, unzip it, double-click the .otf files, and install using "FontBook"
+%   http://www.gust.org.pl/projects/e-foundry/tex-gyre/heros/qhv2.004otf.zip
 
 % named colors
 \definecolor{offwhite}{RGB}{249,242,215}
@@ -375,7 +377,7 @@ those with access to well-funded research libraries?
 \item Open access
 \bi
 \item bigger page charges
-\item charge submissions?
+\item submission charges?
 \ei
 \item Endowments
 \item Direct grants to journals
