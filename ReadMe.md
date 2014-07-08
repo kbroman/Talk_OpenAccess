@@ -1,12 +1,12 @@
 ### Talk on &ldquo;Open access publishing: A researcher&rsquo;s perspective&rdquo;
 
-These are slides for a talk that I will give for a symposium on open
+These are slides for a talk that I gave at a symposium on open
 access publishing,
 &ldquo;[Open Access, Open Data @ UW](http://researchdata.wisc.edu/open-access-open-data/),&rdquo;
 organized by the
 [UW&ndash;Madison libraries](http://library.wisc.edu) and
 [Research Data Services Group](http://researchdata.wisc.edu).
-The symposium will be at 8&ndash;10:30am on Thursday, 24 Oct 2013, at
+The symposium was held 8&ndash;10:30am on Thursday, 24 Oct 2013, at
 the
 [DeLuca Forum](https://discovery.wisc.edu/home/town-center/apply-to-reserve-town-center-spaces/hf-deluca-forum/)
 at the
