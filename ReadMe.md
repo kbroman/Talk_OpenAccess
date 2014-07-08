@@ -14,7 +14,7 @@ at the
 
 The current pdf is [here](http://www.biostat.wisc.edu/~kbroman/presentations/openaccess.pdf).
 
-And [here's a version with notes on what I intend to say](http://www.biostat.wisc.edu/~kbroman/presentations/openaccess_withnotes.pdf).
+And [here's a version with notes on what I said](http://www.biostat.wisc.edu/~kbroman/presentations/openaccess_withnotes.pdf).
 
 <hr/>
 
