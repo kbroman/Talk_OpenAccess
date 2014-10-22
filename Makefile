@@ -14,7 +14,8 @@ openaccess_withnotes.tex: openaccess.tex createVersionWithNotes.rb
 	createVersionWithNotes.rb openaccess.tex openaccess_withnotes.tex
 
 web: openaccess.pdf dropbox openaccess_withnotes.pdf
-	scp openaccess*.pdf broman-2.biostat.wisc.edu:public_html/presentations/
+	scp openaccess.pdf broman-2.biostat.wisc.edu:public_html/presentations/openaccess2014.pdf
+	scp openaccess_withnotes.pdf broman-2.biostat.wisc.edu:public_html/presentations/openaccess2014_withnotes.pdf
 
 dropbox: ~/Dropbox/Talks/openaccess.pdf
 
